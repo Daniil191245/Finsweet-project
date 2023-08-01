@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
 }
 :root{
@@ -28,4 +29,126 @@ a{
 }
 ul,ol{
     list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* stuling header */
+.header{
+    padding: 25px 0px;
+    background-color: var(--head-color);
+}
+.header-item{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 621px;
+}
+.navigation{
+    margin-right: 35px;
+}
+.navigation-list-item{
+    display: flex;
+}
+.navigation-item:not(:last-child){
+    margin-right: 25px;
+}
+.item{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: var(--color-post-card);
+}
+.button-item{
+    width: 179px;
+    height: 56px;
+    cursor: pointer;
+    background-color: var(--color-post-card);
+}
+.button-item>span{
+    font-family: Sen;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--head-color);
+}
+.section-hero{
+    padding: 128px 0px 192px;
+    background-image: url(./Finsweet-img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-hero{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+letter-spacing: 3px;
+text-transform: uppercase;
+margin-bottom: 24px;
+color: var(--color-post-card);
+}
+.text-hero span{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 20px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: var(--color-post-card);
+}
+.head-hero{
+    width: 803px;
+font-family: Sen;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 114.286% */
+letter-spacing: -2px;
+margin-bottom: 24px;
+color: var(--color-post-card);
+}
+.data-hero{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+margin-bottom: 16px;
+color: var(--color-post-card);
+}
+.data-hero span{
+    color: var(--color-yellow);
+}
+.text-title{
+    width: 599px;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+margin-bottom: 48px;
+color: var(--color-post-card);
+}
+.button-hero{
+    width: 204px;
+    height: 56px;
+    background-color: var(--color-yellow);
+}
+.button-hero span{
+font-family: Sen;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+/* padding: 16px 48px; */
+color: var(--head-color);
 }
