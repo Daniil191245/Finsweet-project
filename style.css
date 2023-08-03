@@ -455,6 +455,9 @@ font-weight: 700;
 line-height: 24px;
 color: var(--head-color);
 }
+.large-section{
+    padding-bottom: 128px;
+}
 .authors-list-item{
     display: flex;
     margin-bottom: 108px;
@@ -517,4 +520,221 @@ font-weight: 400;
 line-height: 20px;
 margin-bottom: 3px;
 color: var(--medium-color);
+}
+/* styling big card blog */
+.card-blog{
+    display: flex;
+    padding: 80px 100px;
+    margin-bottom: 128px;
+    background: var(--color-background-card);
+}
+.inf-blogs{
+    height: 310px;
+    border-right: 1px solid  var(--medium-color);
+}
+.testimon-text{
+    padding-top: 15px;
+    margin-bottom: 12px;
+}
+.name-blog{
+    width: 345px;
+font-family: Sen;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; 
+letter-spacing: -2px;
+margin-right: 85px;
+margin-bottom: 20px;
+color: var(--head-color);
+}
+.text-blog{
+    width: 349px;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: var(--medium-color);
+}
+
+.blog-card{
+    margin-left: 96px;
+}
+.information-blog{
+    width: 469px;
+font-family: Sen;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+margin-bottom: 121px;
+color: var(--head-color);
+}
+.portfol-blog{
+    display: flex;
+    gap: 16px;
+}
+.photo-owner{
+    width: 48px;
+height: 48px;
+border-radius: 48px;
+}
+.owner-blog{
+font-family: Sen;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+margin-bottom: 3px;
+color: var(--head-color);
+}
+.tower-owner{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: var(--medium-color);
+}
+.left-button{
+    width: 48px;
+height: 48px;
+border-radius: 50px;
+margin-left: 121px;
+background-color: var(--logotype-color);
+}
+.button-blog{
+    width: 62px;
+height: 62px;
+border-radius: 50px;
+cursor: pointer;
+background-color: var(--head-color);
+}
+.button-blog span{
+    color: var(--color-post-card);
+}
+.join-team{
+    text-align: center;
+}
+.name-join{
+    width: 414px;
+font-family: Sen;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; 
+letter-spacing: -2px;
+margin: 0 auto;
+margin-bottom: 16px;
+color: var(--head-color);
+}
+.text-join{
+    width: 405px;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+margin: 0 auto;
+margin-bottom: 32px;
+color: var(--medium-color);
+}
+.button-join{
+    padding: 16px 48px;
+    cursor: pointer;
+    align-items: center;
+    background-color: var(--color-decoration-elements);
+}
+.button-join span{
+    font-family: Sen;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+color: var(--head-color);
+}
+/* styling footer */
+.footer{
+    padding: 56px 0px;
+    background-color: var(--head-color);
+}
+.links-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+.list-links{
+    display: flex;
+}
+.list-links-item:not(:last-child){
+    margin-right: 24px;
+}
+.links-item{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: var(--logotype-color);
+}
+/* styling form */
+.name-form{
+    width: 562px;
+font-family: Sen;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 133.333% */
+letter-spacing: -2px;
+margin-right: 64px;
+color: var(--color-post-card);
+}
+.form-footer{
+    display: flex;
+    align-items: center;
+    padding: 80px 64px;
+    margin-bottom: 48px;
+    background-color: var(--medium-color);
+    /* background-color: var(--logotype-color);
+    opacity: 0.05; */
+}
+.input-footer{
+    width: 323px;
+height: 56px;
+outline: none;
+margin-right: 24px;
+border: 1 px solid var(--information-post-color);
+}
+[placeholder="Enter Your Email"]{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+padding-left: 25px;
+color: var(--medium-color);
+}
+.button-form{
+    width: 179px;
+    height: 56px;
+    cursor: pointer;
+    background-color: var(--color-yellow);
+}
+.button-form span{
+font-family: Sen;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+color: var(--head-color);
+}
+.inf-contact{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+opacity: 0.7;
+color: var(--logotype-color);
 }
