@@ -19,6 +19,8 @@
     --text-started:#232536;
     --background-hero: radial-gradient(80.99% 71.93% at 74.58% 0.00%, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%);
     --color-decoration-elements:#FFD050;
+    --black-color-list-topics:#161722;
+    --color-black: #000;
 }
 body{
     font-family: 'Inter', sans-serif;
@@ -860,7 +862,6 @@ font-weight: 400;
 line-height: 28px;
 color: var(--medium-color);
 }
-/* ще вернусь до розташування */
 .section-categories{
     padding: 68px 0px 128px;
 }
@@ -872,5 +873,161 @@ font-weight: 700;
 line-height: 48px; /* 133.333% */
 letter-spacing: -2px;
 margin-bottom: 48px;
+color: var(--head-color);
+}
+/* ---------------------------------------------finish styling page blog------------------------------------------ */
+/* -----------------------start styling page blog-post---------------------------------------------------------- */
+.section-information-fonts{
+    padding: 128px 0px;
+}
+.name-info{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+padding-left: 250px;
+margin-bottom: 24px;
+}
+.name{
+font-family: Sen;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 142.857% */
+letter-spacing: -1px;
+color: var(--color-purpel);
+}
+.text-data{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: var(--medium-color);
+}
+.tittle-guide{
+    width: 768px;
+font-family: Sen;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 133.333% */
+letter-spacing: -2px;
+margin: 0 auto;
+margin-bottom: 35px;
+color: var(--head-color);
+}
+.startup-shuttle{
+    display: flex;
+    padding-left: 250px;
+    margin-bottom: 64px;
+}
+.startup{
+font-family: Sen;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+margin-left: 8px;
+color: var(--head-color);
+}
+/* styling indormation or fonts */
+.imformation-fonts{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 64px;
+}
+.list-information-fonts:not(:last-child){
+    margin-bottom: 48px;
+}
+.tittle-fonts{
+    width: 835px;
+font-family: Sen;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 133.333% */
+letter-spacing: -2px;
+margin-bottom: 16px;
+color: var(--head-color);
+}
+/* мають бути ще крапочки */
+.list-topics{
+font-family: Sen;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+opacity: 0.78;
+color: var(--black-color-list-topics);
+}
+.topics-first{
+    margin-top: 24px;
+}
+.text-fonts{
+    width: 843px;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: var(--medium-color);
+}
+.topics-last{
+    margin-bottom: 24px;
+}
+.section-read{
+   padding-bottom: 128px;
+}
+.tittle-read{
+font-family: Sen;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 133.333% */
+letter-spacing: -2px;
+margin-bottom: 64px;
+color: var(--color-black);
+}
+.read-next::after{
+    content: "";
+    display: block;
+
+    width: 100%;
+    height: 1px;
+    margin-top: 64px;
+    margin-bottom: 128px;
+    opacity: 0.3;
+    background-color: var(--medium-color);
+}
+.list-reading{
+    display: flex;
+
+}
+.list-item-read:not(:last-child){
+    margin-right: 32px;
+}
+.photo-card{
+    margin-bottom: 32px;
+}
+.name-card{
+    width: 405px;
+font-family: Sen;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 142.857% */
+letter-spacing: -1px;
+margin-bottom: 16px;
+color: var(--text-started);
+}
+.name-card+p{
+    width: 405px;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+opacity: 0.7;
 color: var(--head-color);
 }
