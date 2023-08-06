@@ -146,8 +146,7 @@ margin-bottom: 48px;
 color: var(--color-post-card);
 }
 .button-hero{
-    width: 204px;
-    height: 56px;
+    padding: 16px 48px;
     cursor: pointer;
     background-color: var(--color-yellow);
 }
