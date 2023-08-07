@@ -22,6 +22,7 @@
     --black-color-list-topics:#161722;
     --color-black: #000;
     --main-colors:#A9A9A9;
+    --border-color-categories:#C1C1C3;
 }
 body{
     font-family: 'Inter', sans-serif;
@@ -37,6 +38,25 @@ ul,ol{
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  
+    outline: 0;
+    outline-offset: 0;
+  
+    visibility: hidden;
+    pointer-events: none;
 }
 /* stuling header */
 .header{
@@ -382,7 +402,7 @@ background: var(--color-background-card);
 background-position: center;
 background-repeat: no-repeat;
 }
-.bussiness::before{
+.business::before{
     background-image: url(./Finsweet-img/Icon.svg);
 }
 .shuttle::before{
@@ -1238,4 +1258,167 @@ line-height: 28px;
 }
 .authors-list-card:hover{
     background-color: var(--color-background-card);
+}
+/* --------------------------------------------------------------------finish styling page about us------------------------------------------------------- */
+/* ------------------------------------------------------------strt styling page category business---------------------------------------------------------- */
+.section-business{
+    padding: 80px 0px;
+    background-color: var(--big-card-color);
+}
+.business-name{
+font-family: Sen;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 114.286% */
+letter-spacing: -2px;
+text-align: center;
+margin-bottom: 16px;
+color: var(--head-color);
+}
+.subtitle-text{
+    width: 515px;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+text-align: center;
+margin: 0 auto;
+margin-bottom: 32px;
+color: var(--medium-color);
+}
+.name-page{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+letter-spacing: 3px;
+text-transform: uppercase;
+text-align: center;
+color: var(--head-color);
+}
+.section-category-business{
+    padding: 128px 0px;
+}
+.content-informetion-business{
+    display: flex;
+}
+.list-post-business{
+    margin-right: 145px;
+}
+.list-item-business{
+    display: flex;
+    align-items: center;
+}
+.list-item-business:not(:last-child){
+    margin-bottom: 32px;
+}
+.information-business{
+    margin-left: 32px;
+}
+.category-name{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 125% */
+letter-spacing: 3px;
+text-transform: uppercase;
+color: var(--color-purpel);
+}
+.title-category{
+    width: 512px;
+font-family: Sen;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 133.333% */
+letter-spacing: -2px;
+margin-top: 10px;
+margin-bottom: 16px;
+color: var(--head-color);
+}
+.information-text-category{
+    width: 512px;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: var(--medium-color);
+}
+.categories-item{
+    margin-bottom: 48px;
+}
+.title-categories-list{
+font-family: Sen;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 133.333% */
+letter-spacing: -2px;
+margin-bottom: 40px;
+color: var(--head-color);
+}
+.list-item-categories{
+    width: 296px;
+    cursor: pointer;
+    border: 1.5px solid var(--border-color-categories);
+}
+.list-item-categories:hover{
+    background-color: var(--color-yellow);
+}
+.list-item-categories:not(:last-child){
+    margin-bottom: 24px;
+}
+.item-name-categories{
+font-family: Sen;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 142.857% */
+letter-spacing: -1px;
+text-align: center;
+padding: 30px 0px;
+color: var(--head-color);
+}
+.name-tags{
+    height: 48px;
+    margin-bottom: 24px;
+}
+.list-button-tags{
+    width: 300px;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 14px;
+}
+.button-tags{
+    
+    cursor: pointer;
+    padding: 8px 37px;
+    border-radius: 28px;
+border: 2px solid var(--medium-color);
+background-color: var(--color-post-card);
+}
+.button-screen{
+    width: 101px;
+    height: 48px;
+    padding: 0;
+}
+.button-technology{
+    width: 181px;
+}
+.button-life{
+    width: 104px;
+}
+.button-tags span{
+font-family: Sen;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+text-align: center;
+color: var(--head-color);
 }
