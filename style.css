@@ -314,7 +314,7 @@ margin-bottom: 20px;
 color: var(--head-color);
 }
 .name-inf-mission{
-width: 480px;
+width: 475px;
 font-family: Sen;
 font-size: 28px;
 font-style: normal;
@@ -1053,9 +1053,135 @@ color: var(--head-color);
 }
 /* ----------------------------------------------------------finish styling page blog-post-------------------------------------------------------- */
 /* --------------------------------------------------styling of the page about us------------------------------------------------------------------- */
+
+.hero-information-about{
+    display: flex;
+    padding-left: 110px;
+    align-items: center;
+}
+.card-team-contant{
+    position: relative;
+    top: 80px;
+    padding: 64px;
+    margin-right: 32px;
+    background-color: var(--color-post-card);
+}
+.card-about{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+letter-spacing: 3px;
+text-transform: uppercase;
+margin-bottom: 16px;
+color: var(--head-color);
+}
+.card-title{
+    width: 496px;
+font-family: Sen;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 133.333% */
+letter-spacing: -2px;
+color: var(--head-color);
+}
+.texts-content{
+    position: relative;
+    top: 70px;
+    width: 477px;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: var(--dark-grey, #4C4C4C);
+}
+.card-inf-number{
+    position: relative;
+    bottom: 192px;
+    left: 109px;
+}
+.card-decoration::after{
+content: "";
+display: block;
+position: relative;
+left: 311px;
+bottom: 23px;
+width: 550px;
+height: 23px;
+background-color: var(--color-yellow);
+}
+.card-information-activ::after{
+    content: "";
+    display: block;
+    width: 311.477px;
+height: 23px;
+background-color: var(--color-purpel);
+}
+.list-information-about{
+    width: 630px;
+    display: flex;
+    padding: 35px 0px 35px 50px;
+    background-color: var(--color-yellow);
+}
+.item-information:not(:last-child){
+    margin-right: 68px;
+}
+.numbers-inf{
+font-family: Sen;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 114.286% */
+letter-spacing: -2px;
+margin-bottom: 3px;
+color: var(--head-color);
+}
+.numbers-inf+p{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: var(--head-color);
+}
+.information-card{
+    width: 1280px;
+    position: relative;
+    bottom: 215.5px;
+    padding: 128px 108px 65px;
+    align-items: center;
+}
+.creat-name{
+    width: 481px;
+font-family: Sen;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 142.857% */
+letter-spacing: -1px;
+margin-bottom: 16px;
+color: var(--head-color);
+}
+.name-platform{
+    width: 475px;
+font-family: Sen;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 142.857% */
+letter-spacing: -1px;
+margin-bottom: 16px;
+color: var(--head-color);
+}
 .items-content-infotmation{
     display: flex;
     align-items: center;
+}
+.informatiom-content{
+    margin-bottom: 128px;
 }
 .two-item-content{
     flex-direction: row-reverse;
