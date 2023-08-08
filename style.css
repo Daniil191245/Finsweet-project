@@ -1395,7 +1395,6 @@ color: var(--head-color);
     gap: 14px;
 }
 .button-tags{
-    
     cursor: pointer;
     padding: 8px 37px;
     border-radius: 28px;
@@ -1422,3 +1421,107 @@ line-height: 32px;
 text-align: center;
 color: var(--head-color);
 }
+/* ---------------------------------------------finish styling page category--------------------------------- */
+/* -----------------------------------------------start styling page authors-----------------------------------------  */
+.section-authors{
+    padding: 128px 0px;
+    background-color: var(--big-card-color);
+}
+.container-author{
+    max-width: 1040px;
+    margin: 0 auto;
+    padding:  0 15px;
+}
+.author-container{
+    display: flex;
+}
+.img-author{
+    margin-right: 35px;
+}
+.title-author{
+    width: 669px;
+font-family: Sen;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 133.333% */
+letter-spacing: -2px;
+margin-bottom: 24px;
+color: var(--head-color);
+}
+.text-author{
+    width: 645px;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+margin-bottom: 24px;
+color: var(--medium-color);
+}  
+.network-author{
+    justify-content: start;
+}
+.pattern-author{
+    position: relative;
+    top: 128px;
+    display: flex;
+    justify-content: center;
+}
+/* styling post author */
+.section-post-author{
+    padding: 128px 0px;
+}
+.category-post{
+    font-family: Sen;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 133.333% */
+    letter-spacing: -2px;
+    margin-bottom: 64px;
+    color: var(--head-color);
+    }
+.list-post-author{
+    display: flex;
+    align-items: center;
+}
+.list-post-author:not(:last-child){
+    margin-bottom: 64px;
+}
+.img-post-author{
+    margin-right: 32px;
+}
+    .name-category-post{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 125% */
+letter-spacing: 3px;
+text-transform: uppercase;
+color: var(--color-purpel);
+    }
+.title-post-author{
+    width: 560px;
+    font-family: Sen;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: -2px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    color: var(--head-color);
+}
+.text-post-author{
+    width: 560px;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: var(--medium-color);
+}
+/* ---------------------------------------------------------------finish styling page author----------------------------------- */
+/* ------------------------------------start styling page  ----------------------------------------------- */
