@@ -1593,3 +1593,131 @@ color: var(--information-post-color);
 .texts-policy{
     margin-bottom: 35px;
 }
+/* -----------------------------------------styling page contct us----------------------------------------------- */
+.section-form{
+    padding: 128px 0px;
+}
+.contact{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px; /* 125% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 12px;
+    color: var(--head-color);
+}
+.title-contact{
+font-family: Sen;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 133.333% */
+letter-spacing: -2px;
+text-align: center;
+margin-bottom: 25px;
+color: var(--head-color);
+}
+.text-contact{
+    width: 768px;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+margin-bottom: 65px;
+color: var(--medium-color);
+}
+/* styling card form */
+.card-form{
+    display: flex;
+    padding: 50px 64px;
+    margin-bottom: 32px;
+    background-color: var(--color-purpel);
+}
+.information-works{
+    margin-right: 43px;
+}
+.information-about-us{
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+color: var(--border-color-categories);
+}
+.information-about-us::after{
+    content: "";
+    display: block;
+    width: 294px;
+    height: 1px;
+    margin: 16px 0px;
+    opacity: 0.1;
+    background-color: var(--color-post-card);
+}
+.work-infornation{
+    font-family: Sen;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+color: var(--color-post-card);
+}
+.work-support{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+color: var(--border-color-categories);
+}
+.information-contact{
+    display: flex;
+    flex-direction: column;
+}
+.input-form-inf{
+    width: 768px;
+    outline: none;
+    border-radius: 2px;
+    margin-bottom: 16px;
+border: 1px solid rgba(109, 110, 118, 0.50);
+}
+.input-form-inf::placeholder{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: var(--head-color);
+}
+[placeholder]{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+padding: 24px 0px 24px 24px;
+color: var(--head-color);
+}
+textarea{
+    height: 144px;
+    resize: none;
+}
+.button-message{
+    width: 768px;
+    padding: 16px 0px;
+    cursor: pointer;
+    background-color: var(--color-yellow);
+}
+.button-message span{
+font-family: Sen;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+text-align: center;
+color: var(--head-color);
+}
